@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   print_time.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nmaquet <nmaquet@student.s19.be>           +#+  +:+       +#+        */
+/*   By: nomaq <nomaq@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/11 10:54:23 by nmaquet           #+#    #+#             */
-/*   Updated: 2023/09/11 13:31:48 by nmaquet          ###   ########.fr       */
+/*   Updated: 2023/09/12 10:11:17 by nomaq            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
 
-int	get_timestamp(long timestam, struct timeval start, struct timeval end)
+int	get_timestamp(long timestamp, struct timeval start, struct timeval end)
 {
 	long	seconds;
 	long	micros;

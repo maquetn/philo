@@ -1,0 +1,15 @@
+Au moins 1 philo
+eat, think, or sleep 		un seul à la fois
+
+Nombre fourchettes = Nombre philo
+Besoin de 2 fourchettes pour manger
+
+Quand fini de manger, pose les fourchettes, commence à dormir
+Quand fini de dormir, commence à pensers
+Si philo meurt de faim —> STOP
+
+
+
+
+Pthread_detach pour faire lâcher les fourchettes?
+pthread_join() pour faire prendre fourchette?

@@ -6,7 +6,7 @@
 /*   By: nmaquet <nmaquet@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/12 09:59:57 by nomaq             #+#    #+#             */
-/*   Updated: 2023/09/12 11:36:47 by nmaquet          ###   ########.fr       */
+/*   Updated: 2023/09/15 09:05:26 by nmaquet          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@ void	get_timestamp(void)
 	while (j < 5) // replace with while alive or something
 	{
 		timestamp = time_now() - starting_time;
-		usleep(1000000); //change with function for whatever action it will be instead (sleep, eat, think)
+		usleep(1000000);//change with function for whatever action it will be instead (sleep, eat, think)
 		printf("%ld ms : Philo X is sleeping\n", timestamp);
 		j++;
 	}

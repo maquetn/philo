@@ -6,7 +6,7 @@
 /*   By: nmaquet <nmaquet@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/11 13:28:12 by nmaquet           #+#    #+#             */
-/*   Updated: 2023/09/15 11:56:20 by nmaquet          ###   ########.fr       */
+/*   Updated: 2023/09/15 14:46:32 by nmaquet          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,8 +40,8 @@ typedef struct s_philo
 } s_philo;
 
 void	check_args(int argc, char **argv);
-int	ft_only_digit(const char *str);
-int	ft_atoi(const char *nptr);
+int		ft_only_digit(const char *str);
+int		ft_atoi(const char *nptr);
 
 
 #endif

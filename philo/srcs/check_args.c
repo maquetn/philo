@@ -6,7 +6,7 @@
 /*   By: nmaquet <nmaquet@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/15 10:28:41 by nmaquet           #+#    #+#             */
-/*   Updated: 2023/09/15 11:30:46 by nmaquet          ###   ########.fr       */
+/*   Updated: 2023/09/15 14:50:01 by nmaquet          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,4 +29,6 @@ void	check_args(int argc, char **argv)
 		if (i != argc)
 			printf("error");
 	}
+	else
+		printf("error");
 }
